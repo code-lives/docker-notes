@@ -63,7 +63,7 @@ services:
     volumes:
       - $PWD/mysql/db/:/var/lib/mysql/
       - $PWD/mysql/mysqld/:/var/run/mysqld/
-      - $PWD/mysql/mysqld.cnf:/etc/mysql/mysql.conf.d/mysqld.cnf
+      #- $PWD/mysql/mysqld.cnf:/etc/mysql/mysql.conf.d/mysqld.cnf
 ```
 # Redis
 ### 本地搭建 docker-compose.yml
