@@ -17,7 +17,7 @@ RUN echo '' | pecl install -o -f redis msgpack grpc protobuf grpc protobuf \
 # GitHub 头像显示
 ### 网址 https://en.gravatar.com
 
-# jenkins
+# Jenkins
 ### 本地搭建 docker-compose.yml
 ```
 version: "3.1"
@@ -33,7 +33,7 @@ services:
       - $PWD/jenkins_home:/var/jenkins_home
       - $PWD/run/docker.sock:/var/run/docker.sock
 ```
-# rabbitmq
+# Rabbitmq
 ### 本地搭建 docker-compose.yml
 ```
 version: '3.1'
@@ -47,7 +47,7 @@ services:
       - "5672:5672"
 
 ```
-# mysql
+# Mysql
 ### 本地搭建 docker-compose.yml
 ```
 version: '3.1'
