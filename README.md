@@ -1,5 +1,5 @@
 # 目录
-### [Docker/image](https://github.com/code-lives/notes/tree/main/Docke/image)
+### [Docker/image](https://github.com/code-lives/notes/tree/main/Docker/image)
 ### [Docker/k8s](https://github.com/code-lives/notes/tree/main/Docke/k8s)
 
 # 网址记录
