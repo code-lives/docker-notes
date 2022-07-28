@@ -1,12 +1,5 @@
-# Alpine
-## apt-get install 依赖搜索    https://pkgs.alpinelinux.org
-### PHP [镜像案例](https://github.com/code-lives/dockerfile)
-### pecl 安装
-```
-RUN echo '' | pecl install -o -f redis msgpack grpc protobuf grpc protobuf \
-    && rm -rf /tmp/pear \
-    && docker-php-ext-enable redis msgpack grpc protobuf grpc protobuf 
-```
+## apt-get install [依赖搜索](https://pkgs.alpinelinux.org)
+## PHP [镜像案例](https://github.com/code-lives/dockerfile)
 # Jenkins
 ### 本地搭建 docker-compose.yml
 ```
