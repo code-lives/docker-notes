@@ -83,3 +83,18 @@ services:
       #/bin/bash -c "redis-server /usr/local/etc/redis/redis.conf"
 
 ```
+# K8s
+### 常用命令
+```
+kubectl get pod 
+kubectl exec -it pod名字 sh
+kubectl apply -f deployment.yml
+```
+### pod 扩展数量
+```
+kubectl scale deployment pod名称 --replicas=100
+```
+### yml 更新
+```
+kubectl create -f deployment.yml --dry-run=client -o yaml |kubectl apply  -f -
+```
