@@ -1,4 +1,5 @@
-# 自定义
+# [案例]（https://github.com/code-lives/php-compose-demo）
+# composer.json
 ```
 name               在packagist 的 名称 （composer require code-lives/php-compose-demo）
 description        简介
@@ -53,3 +54,4 @@ class Test
 - src
   - Test.php
 - composer.json
+
