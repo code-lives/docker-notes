@@ -1,4 +1,4 @@
-# [案例]（https://github.com/code-lives/php-compose-demo）
+# [案例查看](https://github.com/code-lives/php-compose-demo)
 # composer.json
 ```
 name               在packagist 的 名称 （composer require code-lives/php-compose-demo）
