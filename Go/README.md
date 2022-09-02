@@ -4,7 +4,7 @@
 go mod tidy
 ```
 ### .ini 文件读取
-## [案例]（https://github.com/code-lives/socket）
+## [案例]https://github.com/code-lives/socket
  - Env
     - env.ini
  - src
