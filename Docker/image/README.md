@@ -22,13 +22,12 @@ services:
 version: '3.1'
 services:
   rabbitmq:
-    image: rabbitmq
+    image: rabbitmq:3.7.7-management
     restart: always
     container_name: rabbitmq #mysql 容器
     ports:
       - "15672:15672"
       - "5672:5672"
-
 ```
 # Mysql
 ### 本地搭建 docker-compose.yml
