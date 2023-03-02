@@ -7,6 +7,9 @@
 ### PHP Packagist
 https://packagist.org
 
+### PECL
+https://pecl.php.net
+
 ### Go Packagist
 https://pkg.go.dev
 
